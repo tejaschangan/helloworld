@@ -1,0 +1,43 @@
+Assignment1:
+gnum = int(input("Enter num: "))
+
+if num < 0:
+   print("Enter a positive number")
+else:
+   sum = 0
+   # use while loop to iterate until zero
+   while(num > 0):
+       sum += num
+       num -= 1
+   print("The sum is", sum)
+
+output:
+C:\Users\mypc\PycharmProjects\untitled1\venv\Scripts\python.exe C:/Users/mypc/PycharmProjects/untitled1/ass3.py
+Enter num: 10
+The sum is 55
+
+Process finished with exit code 0
+
+
+
+Assignment 2:
+num = int(input("Enter a number: "))
+
+if num > 1:
+    for i in range(2, num):
+        if (num % i) == 0:
+            print(num, "is not a prime number")
+            print(i, "times", num // i, "is", num)
+            break
+    else:
+        print(num, "is a prime number")
+
+
+output:
+
+C:\Users\mypc\PycharmProjects\untitled1\venv\Scripts\python.exe C:/Users/mypc/PycharmProjects/untitled1/ass3a.py
+Enter a number: 7
+7 is a prime number
+
+Process finished with exit code 0
+
