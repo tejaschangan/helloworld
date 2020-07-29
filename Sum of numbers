@@ -1,0 +1,56 @@
+print("hello\
+      world")
+print(""" (\_/)
+( •,•)
+(")_(")""")
+
+print('hello world')
+
+print("hello tejas's world")
+print("hello\t world")
+print("hello\n world")
+print('hello\'s world\'s\'s')
+print("hello\a")
+
+name="tejas"
+age=21
+marks=94.346
+print("The name of a person is" ,name,"age is",age,"marks are",marks)
+print("The name of a person is %10s age is %5dmarks are %10.2f"%(name,age,marks))
+print(f"The name of person is {name} age is {age} marks are {marks}")
+x=20
+
+id(x)
+print(5**5)
+
+print(10/3)
+print(10%3)
+a=10
+b=20
+print(a==b)#comparison operator
+print(a!=b)#comparion operator
+a=241
+b=1
+print(a|b)
+print(bin(a))
+print(bin(b))
+print(a&b)
+a=1
+b=20
+print(a>b)
+print((a>b)or(10>a))
+print(10<9 and 20>m)#imp interview que
+print(10>9)
+print(not(10>9))
+str1="tejas"
+print("k"in str1)# checking memership
+a=10
+b=10
+print(a==b)
+print(id(a))
+print(id(b))
+a=-6
+b=-6
+print(a==b)
+print(a is b)
+print(10/9*5+18-5)#operation precedence
