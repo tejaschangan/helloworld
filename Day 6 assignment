@@ -1,0 +1,25 @@
+Assignment que1:
+list1=[1,2,3,4,5]
+list2=["a","b","c","d","e"]
+
+
+print("origial list is:"+str(list1))
+print("origial 2 is:"+str(list2))
+
+res={list1[i]:list2[i] for i in range (len(list1))}
+
+print("resultat dic is:"+ str(res))
+
+
+
+
+
+
+output:
+
+C:\Users\mypc\PycharmProjects\untitled1\venv\Scripts\python.exe C:/Users/mypc/PycharmProjects/untitled1/ass6.py
+origial list is:[1, 2, 3, 4, 5]
+origial 2 is:['a', 'b', 'c', 'd', 'e']
+resultat dic is:{1: 'a', 2: 'b', 3: 'c', 4: 'd', 5: 'e'}
+
+Process finished with exit code 0
